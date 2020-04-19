@@ -5,8 +5,7 @@ applications:
   - route: allocations-pal-alloc-BhuvanaT.cfapps.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-alloc-BhuvanaT.cfapps.io
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-regis-BhuvanaT.cfapps.io
+    JBP_CONFIG_OPEN_JDtracker-allocations-database K_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-allocations-database
