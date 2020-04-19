@@ -1,4 +1,5 @@
 package io.pivotal.pal.tracker.backlog;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,6 +12,7 @@ import java.util.TimeZone;
 
 
 @SpringBootApplication
+@EnableEurekaClient
 @ComponentScan({"io.pivotal.pal.tracker.backlog", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
