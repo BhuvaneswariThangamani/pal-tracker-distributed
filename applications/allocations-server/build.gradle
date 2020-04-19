@@ -3,3 +3,10 @@ apply from: "$projectDir/../server.gradle"
 dependencies {
     compile project(":components:allocations")
 }
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
